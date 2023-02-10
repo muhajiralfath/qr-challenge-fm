@@ -11,7 +11,58 @@ body {
 main {
   width: 320px;
   height: 500px;
+  margin: 85px 25px 85px 25px;
   border-radius: 22px;
   text-align: center;
   background-color: hsl(0deg, 0%, 100%);
-}/*# sourceMappingURL=index.css.map */
+}
+main img {
+  width: 290px;
+  height: 290px;
+  border-radius: 22px;
+  margin-top: 8px;
+  padding: 13px;
+}
+main h1 {
+  color: hsl(218deg, 44%, 22%);
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0 20px;
+}
+main p {
+  font-size: 16px;
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+  padding: 20px;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 376px) and (max-width: 1920px) {
+  main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  footer {
+    position: relative;
+    top: 750px;
+  }
+}
+@media screen and (max-width: 375px) {
+  main {
+    margin-bottom: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+  }
+} /*# sourceMappingURL=index.css.map */
